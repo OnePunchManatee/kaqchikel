@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PlayScene : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void Scene1()
+    {
+        SceneManager.LoadScene("Simulation");
+    }
+
+    public void Scene2()
+    {
+        SceneManager.LoadScene("Options");
+    }
+}
